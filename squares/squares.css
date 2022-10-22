@@ -1,0 +1,43 @@
+/* h2 (heading) styling */
+h2 {
+    color: blue;
+    font-weight: bolder;
+}
+
+/* p (paragraph) styling */
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* sq class styling */
+.sq {
+    width: 50px;
+    height: 50px;
+    border: thick solid yellow;
+    float: left;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+/* sq last member styling */
+.sq:last-child {
+    margin-right: 0px;
+}
+
+/* sq span styling */
+.sq span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: red;
+    vertical-align: middle;
+}
