@@ -1,2 +1,0 @@
-** COMPILE **
-- Google Chrome Console
